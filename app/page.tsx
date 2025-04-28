@@ -1,9 +1,15 @@
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+
 export default function Home() {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-[calc(100vh-65px)] overflow-y-auto border-0 md:border-x border-dashed border-primary/20">
-      <div className="py-6 sm:py-12 flex items-center justify-center h-full">
+    <div>
+      <div className="py-6 sm:py-12 flex items-center justify-center h-screen gap-4">
         <p className="leading-7 [&:not(:first-child)]:mt-6">
-          Click on the button at the top right corner to see the blog.
+          Hello, fancy a blog? <br />
+          <Link href={"/blog"}>
+            <Button variant={"outline"}>Click here</Button>
+          </Link>
         </p>
       </div>
     </div>
