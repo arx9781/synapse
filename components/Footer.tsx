@@ -1,5 +1,3 @@
-import { Separator } from "../separator";
-
 export default function Footer() {
   return (
     <footer className="w-full border-t border-dashed border-primary/20">
