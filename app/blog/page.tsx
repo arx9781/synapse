@@ -1,6 +1,6 @@
 export default function Blog() {
   return (
-    <div className="flex items-center justify-center mt-15">
+    <div className="flex items-center justify-center pt-[75px] pb-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-0 md:border-x border-dashed border-primary/20">
       <div>
         <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
           The Joke Tax Chronicles
