@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="w-full border-t border-dashed border-primary/20">
+    <footer className="w-full border-t border-dashed border-primary/20 z-50 backdrop-blur-xl supports-[backdrop-filter]:bg-background-100/60">
       <div className="max-w-7xl mx-auto flex h-16 items-center justify-center border-0 md:border-x border-dashed border-primary/20 p-4 md:p-6">
         <div className="w-full flex flex-row items-center justify-between">
           <p className="leading-7 [&:not(:first-child)]:mt-6">

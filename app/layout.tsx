@@ -37,7 +37,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar />
-          <main className="flex-1 max-w-7xl mx-auto px-4 md:px-6 h-[calc(100vh-65px)] overflow-y-auto border-0 md:border-x border-dashed border-primary/20">
+          <main className="flex-1 max-w-7xl mx-auto px-4 md:px-6 min-h-screen overflow-y-auto border-0 md:border-x border-dashed border-primary/20">
             {children}
           </main>
           <Footer />
