@@ -45,6 +45,11 @@ export default async function PostPage({ params }: PostPageProps) {
           <hr className="my-5 border-primary/20 border-dashed" />
           <MDXContent code={post.body} />
         </article>
+        <div className="mt-16 w-full flex items-center justify-end">
+          <p className="text-[8px] sm:text-base flex items-center gap-2 italic">
+            <span>—</span> {post.author}
+          </p>
+        </div>
       </div>
     </>
   );
